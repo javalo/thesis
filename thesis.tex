@@ -1,0 +1,92 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{tikz}
+\setcounter{tocdepth}{4} 
+\setcounter{secnumdepth}{4}
+\graphicspath{{images/}}
+
+\title{
+{QR Code-Based Encryption and Decryption of Triangular Geometry
+Problems}\\
+{\large karadeniz technical university}
+{\includegraphics{katu.jpg}}
+}
+\author{Cheikha lo}
+\date{Mars 2017}
+
+\begin{document}
+\maketitle
+
+\chapter*{Abstract}
+This study focuses on the design and
+implementation of a QR code-based encryption and decryption
+system for triangular geometry problems. The encryption
+stage starts with the development of a context-free grammar
+to describe triangular problems in a formal language.
+Triangle descriptions are then encrypted using a traditional
+cryptography algorithm and lastly the corresponding QR
+code is generated. In the decryption stage, the QR code is
+decrypted and a parser, which is automatically produced by
+the JavaCC tool, is used to analyze and show the related
+problem graphically. The developed system provides QR code
+reader-like tool and presents an elegant way to be able to
+display mathematical problems on various devices easily. With
+such a tool, the whole questions of an exam can be encoded in
+QR code and stored in smaller sizes. This would significantly
+increase the security of exams and decrease question data,
+which can be particularly transmitted on mobile devices, in size
+
+\chapter*{Dedicated}
+I dedicate my dissertation work to my family and many friends ..... 
+
+\chapter*{Declaration}
+later ....
+
+\chapter*{Acknowlogment}
+Firstly, I would like to express my sincere gratitude to my
+advisor Hüseyin Pehlivan for the continuous support of my
+MSc study and related research, for his patience, motivation,and immense knowledge. His guidance helped me in all the time of research and writing of this paper. I could not have imagined having a better advisor and mentor for my MSc
+study.
+
+\tableofcontents
+
+\chapter{Introduction}
+\input{chapters/introduction}
+
+\chapter{Literature Review}
+\input{chapters/LiteratureReview}
+
+\chapter{General Information }
+\input{chapters/GeneralInformation}
+
+\chapter{Research Methodology, Findings And Discussion}
+\input{chapters/Methodelogy}
+
+\chapter{Design}
+\input{chapters/Design}
+
+
+\chapter{Implementation}
+\input{chapters/Implementation}
+
+
+\chapter{Testing}
+\input{chapters/Testing}
+
+\chapter{Tools and technologies}
+\input{chapters/Tools}
+
+
+\chapter{Conclusion}
+\input{chapters/conclusion}
+
+\chapter{Reference}
+\input{chapters/reference}
+
+\chapter{Appendix}
+\input{chapters/appendix}
+
+\end{document}
+
+
